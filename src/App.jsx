@@ -2,7 +2,7 @@ import { useState, useCallback, useEffect } from "react"
 import AddEditModal from "./components/AddEditModal"
 import supabase from "./supabase"
 import Loader from "./components/Loader"
-import openDeleteModal from "./components/DeleteModal"
+import openDeleteModal from "./components/deleteModal"
 
 let page = { size: 0, range: [0, 5], page_no: 0, pageSize: 6 }
 const App = () => {
